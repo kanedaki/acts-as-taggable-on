@@ -7,6 +7,7 @@ module ActsAsTaggableOn
     ### ASSOCIATIONS:
 
     has_many :taggings, :dependent => :destroy, :class_name => 'ActsAsTaggableOn::Tagging'
+    has_many :endorsements
 
     ### VALIDATIONS:
 
